@@ -1,3 +1,5 @@
+http2https or https2http – depending on how you think about it...
+
 This is a simple PHP script to create a gateway to access HTTPS (SSL) web pages and files via HTTP requests.
 
 This script may be needed, for example, for Arduino-based devices (ESP6266) when there is no option to support SSL certificates. 
