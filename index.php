@@ -4,7 +4,7 @@ $url_check1 = 'https://api.weather.yandex.ru/'; // available domain 1
 //$url_check2 = 'https://api.weather.com/';     // available domain 2
 
 if (strncasecmp($url, $url_check1, strlen($url_check1)) == 0
-//   |strncasecmp($url, $url_check2, strlen($url_check2)) == 0
+//   ||strncasecmp($url, $url_check2, strlen($url_check2)) == 0
  ){
      $ch = curl_init($url);
      curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
